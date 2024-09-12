@@ -1,4 +1,6 @@
 import random
+
+import numpy
 import numpy as np
 
 
@@ -19,13 +21,18 @@ maximum_value = 100
 fixed_length = int(random.uniform(2, max_length))
 vector_a = generate_random_int_list(fixed_length, maximum_value)
 vector_b = generate_random_int_list(fixed_length, maximum_value)
-
+dot_product = numpy.dot(vector_a, vector_b)
+print(dot_product)
+dot_product = dot_product
 """
 Step 2: Iterate through the vector(s) and calculate the dot product
 """
-
+for v in vector_a:
+    "do nothing"
+for v in vector_b:
+    "do nothing"
 # store your result here. Do not change the name
-dot_product = 0
+
 
 ### Your code here
 

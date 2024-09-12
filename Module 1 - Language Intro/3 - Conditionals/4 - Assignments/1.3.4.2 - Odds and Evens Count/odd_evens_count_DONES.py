@@ -27,18 +27,18 @@ upper_bound = 1000
 nums = generate_random_int_list(max_length, upper_bound)
 
 # create two variables to hold the final answers
-num_evens = 0
-num_odds = 0
+evens_list = 0
+odds_list = 0
 list_length = len(nums)
 
 for n in nums:
     if n % 2 ==0:
-        num_evens = num_evens + 1
+        evens_list = evens_list + 1
     else :
-        num_odds = num_odds + 1
+        odds_list = odds_list + 1
 
 print(nums)
-print("Number of evens in our list is: ", num_evens)
-print("Number of odds in our list is: ",  num_odds)
+print("Number of evens in our list is: ", evens_list)
+print("Number of odds in our list is: ",  odds_list)
 
 ### YOUR CODE BEGINS HERE ###
